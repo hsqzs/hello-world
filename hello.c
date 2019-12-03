@@ -12,5 +12,5 @@ res=curl_ easy_ perform(curl);if(res!=CURLE_ OK)
 fprintf(stderr, "curl_ _easy_ perform() failed:%sIn",
 curl_ easy_ strerror(res));curl_ easy_ cleanup(curl);
 }
-return0;
+return 0;
 }
